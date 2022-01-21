@@ -1,0 +1,26 @@
+{% extends "home.html" %}
+
+{% block content %}
+
+
+<div>
+    <title>~Battle Screen~</title>
+
+    <p>
+        <h1>The War has Ended!!!</h1>
+    </p>
+    <p>
+        Player 1 chose {{ player_1.choice }}
+    </p>
+    <p>
+        Player 2 chose {{ player_2.choice }}
+    </p>
+    <p>
+        {{ outcome }}
+    </p>
+</div>
+
+
+
+
+{% endblock %}
