@@ -7,7 +7,7 @@ class Game():
 
     def compare(self, player_1_choice, player_2_choice):
         if player_1_choice == player_2_choice:
-            return None
+            return "It's a DRAW"
         if player_1_choice == "rock" and player_2_choice == "paper":
             return "Player 2 WINS by choosing paper"
         if player_1_choice == "paper" and player_2_choice == "scissors":

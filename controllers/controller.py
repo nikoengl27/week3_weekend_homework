@@ -3,7 +3,6 @@ from unittest import result
 from flask import render_template
 from app import app
 from models.player import Player
-from models.player_list import players
 from models.game import Game
 
 
